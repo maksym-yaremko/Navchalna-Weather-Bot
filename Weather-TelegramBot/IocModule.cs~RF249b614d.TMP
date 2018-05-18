@@ -1,0 +1,21 @@
+﻿using log4net;
+using Ninject.Modules;
+using Wtb.Helpers.UnitsConverter;
+using Wtb.TelegramApi;
+
+namespace Weather_TelegramBot
+{
+    public class IocModule:NinjectModule
+    {
+        public override void Load()
+        {
+            Bind<ILog>().ToMethod(ctx => LogManager.GetLogger("TelegramManager")).InTransientScope();
+
+            Bind<ITelegramManager>().To<TelegramManager>().InSingletonScope();
+            Bind<IHttpManager>().To<HttpManager>().InTransientScope();
+            Bind<IUpdateManager>().To<UpdateManager>().InTransientScope();
+            Bind<IMessageManager>().To<MessageManager>().InTransientScope();
+            Bind<IUnitsConverterFactory>().To<UnitsConverterFactory>().InTransientScope();
+        }
+    }
+}

@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wtb.WinService", "Weather-TelegramBot\Wtb.WinService.csproj", "{800AD095-B5EA-4CE8-9B3B-82CF96147CD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wtb.TelegramApiClient", "Wtb.TelegramApi\Wtb.TelegramApiClient.csproj", "{5E7A9BF5-5B92-4588-BD78-3550B2051865}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wtb.YahooApiClient", "Wtb.YahooApi\Wtb.YahooApiClient.csproj", "{08C4490A-3681-4ED8-82ED-60B55D946123}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wtb.Tests", "Wtb.Tests\Wtb.Tests.csproj", "{E37C618D-B81B-4CBC-A07D-29A0578BEFB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wtb.Helpers", "Wtb.Helpers\Wtb.Helpers.csproj", "{1E507463-37DC-4DCA-859E-02D714B723E4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{800AD095-B5EA-4CE8-9B3B-82CF96147CD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{800AD095-B5EA-4CE8-9B3B-82CF96147CD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{800AD095-B5EA-4CE8-9B3B-82CF96147CD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{800AD095-B5EA-4CE8-9B3B-82CF96147CD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E7A9BF5-5B92-4588-BD78-3550B2051865}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E7A9BF5-5B92-4588-BD78-3550B2051865}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E7A9BF5-5B92-4588-BD78-3550B2051865}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E7A9BF5-5B92-4588-BD78-3550B2051865}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08C4490A-3681-4ED8-82ED-60B55D946123}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08C4490A-3681-4ED8-82ED-60B55D946123}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08C4490A-3681-4ED8-82ED-60B55D946123}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08C4490A-3681-4ED8-82ED-60B55D946123}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E37C618D-B81B-4CBC-A07D-29A0578BEFB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E37C618D-B81B-4CBC-A07D-29A0578BEFB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E37C618D-B81B-4CBC-A07D-29A0578BEFB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E37C618D-B81B-4CBC-A07D-29A0578BEFB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E507463-37DC-4DCA-859E-02D714B723E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E507463-37DC-4DCA-859E-02D714B723E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E507463-37DC-4DCA-859E-02D714B723E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E507463-37DC-4DCA-859E-02D714B723E4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
